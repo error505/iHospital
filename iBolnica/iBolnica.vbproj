@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0BE53D3A-81BB-4208-83F3-1F0A2D95E0D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>iBolnica.My.MyApplication</StartupObject>
+    <RootNamespace>iBolnica</RootNamespace>
+    <AssemblyName>iBolnica</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>iBolnica.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>iBolnica.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BankaKrvi_Form.Designer.vb">
+      <DependentUpon>BankaKrvi_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BankaKrvi_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajIzvjestaj_Form.Designer.vb">
+      <DependentUpon>DodajIzvjestaj_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DodajIzvjestaj_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor.Designer.vb">
+      <DependentUpon>Doktor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorLogin_Form.Designer.vb">
+      <DependentUpon>DoktorLogin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorLogin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonatoriKrvi_FOrm.Designer.vb">
+      <DependentUpon>DonatoriKrvi_FOrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DonatoriKrvi_FOrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fakture_Form.Designer.vb">
+      <DependentUpon>Fakture_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fakture_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Faramaceuti_form.Designer.vb">
+      <DependentUpon>Faramaceuti_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Faramaceuti_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmaceutLogin_Form.Designer.vb">
+      <DependentUpon>FarmaceutLogin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FarmaceutLogin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ibolnicaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ibolnicaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ibolnicaDataSet.vb">
+      <DependentUpon>ibolnicaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IzvjestajODiagnozi_Form.Designer.vb">
+      <DependentUpon>IzvjestajODiagnozi_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IzvjestajODiagnozi_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzvjestajORodjenju_Form.Designer.vb">
+      <DependentUpon>IzvjestajORodjenju_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IzvjestajORodjenju_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzvjestajOSmrti_Form.Designer.vb">
+      <DependentUpon>IzvjestajOSmrti_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IzvjestajOSmrti_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzvjestajSaOperacija_Form.Designer.vb">
+      <DependentUpon>IzvjestajSaOperacija_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IzvjestajSaOperacija_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategorijaLijekova_Form.Designer.vb">
+      <DependentUpon>KategorijaLijekova_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KategorijaLijekova_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kreveti_Form.Designer.vb">
+      <DependentUpon>Kreveti_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kreveti_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaborantLogin_Form.Designer.vb">
+      <DependentUpon>LaborantLogin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LaborantLogin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratorija_Form.Designer.vb">
+      <DependentUpon>Laboratorija_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratorija_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lijekovi_Form.Designer.vb">
+      <DependentUpon>Lijekovi_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lijekovi_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenadzerLogin_Form.Designer.vb">
+      <DependentUpon>MenadzerLogin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenadzerLogin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menadzment_Form.Designer.vb">
+      <DependentUpon>Menadzment_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menadzment_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Obavijesti_form.Designer.vb">
+      <DependentUpon>Obavijesti_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Obavijesti_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obavjestenja_form.Designer.vb">
+      <DependentUpon>Obavjestenja_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Obavjestenja_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odjeljenja_Form.Designer.vb">
+      <DependentUpon>Odjeljenja_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Odjeljenja_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacijentDoktor_Form.Designer.vb">
+      <DependentUpon>PacijentDoktor_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PacijentDoktor_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pacijenti.Designer.vb">
+      <DependentUpon>Pacijenti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pacijenti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacijentKrv_Form.Designer.vb">
+      <DependentUpon>PacijentKrv_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PacijentKrv_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacijentLogin_Form.Designer.vb">
+      <DependentUpon>PacijentLogin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PacijentLogin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacijentRecepti_Form.Designer.vb">
+      <DependentUpon>PacijentRecepti_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PacijentRecepti_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacijentSastanci_Form.Designer.vb">
+      <DependentUpon>PacijentSastanci_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PacijentSastanci_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Placanje_Form.Designer.vb">
+      <DependentUpon>Placanje_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Placanje_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Podesavanja_Form.Designer.vb">
+      <DependentUpon>Podesavanja_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Podesavanja_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepti_Form.Designer.vb">
+      <DependentUpon>Recepti_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recepti_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sastanci_Form.Designer.vb">
+      <DependentUpon>Sastanci_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sastanci_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SestraLogin_Form.Designer.vb">
+      <DependentUpon>SestraLogin_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SestraLogin_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sestra_Form.Designer.vb">
+      <DependentUpon>Sestra_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sestra_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BankaKrvi_Form.resx">
+      <DependentUpon>BankaKrvi_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajIzvjestaj_Form.resx">
+      <DependentUpon>DodajIzvjestaj_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor.resx">
+      <DependentUpon>Doktor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorLogin_Form.resx">
+      <DependentUpon>DoktorLogin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonatoriKrvi_FOrm.resx">
+      <DependentUpon>DonatoriKrvi_FOrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fakture_Form.resx">
+      <DependentUpon>Fakture_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Faramaceuti_form.resx">
+      <DependentUpon>Faramaceuti_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmaceutLogin_Form.resx">
+      <DependentUpon>FarmaceutLogin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzvjestajODiagnozi_Form.resx">
+      <DependentUpon>IzvjestajODiagnozi_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzvjestajORodjenju_Form.resx">
+      <DependentUpon>IzvjestajORodjenju_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzvjestajOSmrti_Form.resx">
+      <DependentUpon>IzvjestajOSmrti_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzvjestajSaOperacija_Form.resx">
+      <DependentUpon>IzvjestajSaOperacija_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KategorijaLijekova_Form.resx">
+      <DependentUpon>KategorijaLijekova_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kreveti_Form.resx">
+      <DependentUpon>Kreveti_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaborantLogin_Form.resx">
+      <DependentUpon>LaborantLogin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratorija_Form.resx">
+      <DependentUpon>Laboratorija_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lijekovi_Form.resx">
+      <DependentUpon>Lijekovi_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenadzerLogin_Form.resx">
+      <DependentUpon>MenadzerLogin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menadzment_Form.resx">
+      <DependentUpon>Menadzment_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obavijesti_form.resx">
+      <DependentUpon>Obavijesti_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obavjestenja_form.resx">
+      <DependentUpon>Obavjestenja_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Odjeljenja_Form.resx">
+      <DependentUpon>Odjeljenja_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacijentDoktor_Form.resx">
+      <DependentUpon>PacijentDoktor_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pacijenti.resx">
+      <DependentUpon>Pacijenti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacijentKrv_Form.resx">
+      <DependentUpon>PacijentKrv_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacijentLogin_Form.resx">
+      <DependentUpon>PacijentLogin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacijentRecepti_Form.resx">
+      <DependentUpon>PacijentRecepti_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacijentSastanci_Form.resx">
+      <DependentUpon>PacijentSastanci_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Placanje_Form.resx">
+      <DependentUpon>Placanje_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podesavanja_Form.resx">
+      <DependentUpon>Podesavanja_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepti_Form.resx">
+      <DependentUpon>Recepti_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sastanci_Form.resx">
+      <DependentUpon>Sastanci_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SestraLogin_Form.resx">
+      <DependentUpon>SestraLogin_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sestra_Form.resx">
+      <DependentUpon>Sestra_Form.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ibolnicaDataSet.xsc">
+      <DependentUpon>ibolnicaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ibolnicaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ibolnicaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ibolnicaDataSet.xss">
+      <DependentUpon>ibolnicaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doktor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doktor_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kontrolna Tabla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kreveti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lijekovi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lijekovi_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Men.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Obavjestenja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odjeljenja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operacije.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacijent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacijent_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacijenti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Podesavanja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Podesavanja_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recepti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rodjenje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sastanci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sestra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sestre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smrt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Placanje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nadzor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lijekovi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\izbrisi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista_doktora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dodaj_doktora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zatvori.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farmaceuti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izvjestaji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banka_Krvi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doda_recept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dodaj_izvjestaj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kreveti_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uredi_sastanke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pogledaj_sastanke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pogledaj_recept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pogledaj_Doktora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kategorija_lijekova.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izdaj_lijek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kategorija_lijekova_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izdaj_lijek_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donatori_Krvi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izvjestaj_o_diagnozi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donatori_Krvi_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izvjestaj_o_diagnozi_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PogledajUplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fakture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fakture_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminico1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doktorico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmaceutico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laborantico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menadzerico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacijentico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sestraico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

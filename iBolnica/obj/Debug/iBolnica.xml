@@ -1,0 +1,796 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+iBolnica
+</name>
+</assembly>
+<members>
+<member name="T:iBolnica.ibolnicaDataSet.adminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.banka_krviDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.dijagnoza_izvjestajDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.dodjela_krevetaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.doktorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.donator_krviDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.email_templateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.fakturaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.farmaceutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestajDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.kategorije_lijekovaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.krevetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.laborantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.lijekoviDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.menadzmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.obavjestenjaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.odjeljenjeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.pacijentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.placanjeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.podesavanjaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.porukaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.receptDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.sastanciDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.sestraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_o_rodjenjuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_operacijaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_smrtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.adminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.banka_krviRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.dijagnoza_izvjestajRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.dodjela_krevetaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.doktorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.donator_krviRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.email_templateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.fakturaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.farmaceutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestajRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.kategorije_lijekovaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.krevetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.laborantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.lijekoviRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.menadzmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.obavjestenjaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.odjeljenjeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.pacijentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.placanjeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.podesavanjaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.porukaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.receptRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.sastanciRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.sestraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_o_rodjenjuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_operacijaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_smrtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.adminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.banka_krviRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.dijagnoza_izvjestajRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.dodjela_krevetaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.doktorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.donator_krviRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.email_templateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.fakturaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.farmaceutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestajRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.kategorije_lijekovaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.krevetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.laborantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.lijekoviRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.menadzmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.obavjestenjaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.odjeljenjeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.pacijentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.placanjeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.podesavanjaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.porukaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.receptRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.sastanciRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.sestraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_o_rodjenjuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_operacijaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet.izvjestaj_smrtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.adminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.banka_krviTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.dijagnoza_izvjestajTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.dodjela_krevetaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.doktorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.donator_krviTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.email_templateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.fakturaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.farmaceutTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.izvjestajTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.kategorije_lijekovaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.krevetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.laborantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.lijekoviTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.menadzmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.obavjestenjaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.odjeljenjeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.pacijentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.placanjeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.podesavanjaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.porukaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.receptTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.sastanciTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.sestraTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.izvjestaj_o_rodjenjuTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.izvjestaj_operacijaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.izvjestaj_smrtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(iBolnica.ibolnicaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(iBolnica.ibolnicaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(iBolnica.ibolnicaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.UpdateAll(iBolnica.ibolnicaDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:iBolnica.ibolnicaDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.adminico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.adminico1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Backup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Banka_Krvi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Doda_recept">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.dodaj_doktora">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Dodaj_izvjestaj">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Doktor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Doktor_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.doktorico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Donatori_Krvi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Donatori_Krvi_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Fakture">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Fakture_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Farmaceuti">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.farmaceutico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.izbrisi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Izdaj_lijek">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Izdaj_lijek_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Izvjestaj_o_diagnozi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Izvjestaj_o_diagnozi_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Izvjestaji">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Kategorija_lijekova">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Kategorija_lijekova_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Kontrolna_Tabla">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.kreveti">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.kreveti_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.krv">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Lab">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Lab_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.laborantico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Lijekovi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Lijekovi_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Lijekovi1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.lista_doktora">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.login2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.login3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.logo2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.mail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Men">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Menad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.menadzerico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Nadzor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Obavjestenja">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.odjeljenja">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.operacije">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Pacijent">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Pacijent_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Pacijenti">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.pacijentico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.password">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Placanje">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Podesavanja">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Podesavanja_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Pogledaj_Doktora">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Pogledaj_recept">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.pogledaj_sastanke">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.PogledajUplate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.pozadina">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.pozadina1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.pozadina2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Profil">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Recepti">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Rodjenje">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Sastanci">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Sestra">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.sestraico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Sestre">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.Smrt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.uplate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.uredi_sastanke">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:iBolnica.My.Resources.Resources.zatvori">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:iBolnica.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
